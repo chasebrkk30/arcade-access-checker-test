@@ -1,8 +1,8 @@
 #The variables for the person attempting to enter
-age = 16
-has_ticket = True
-is_vip = False
-is_banned = False
+age = ? #output for person depends on the age inputed into this value
+has_ticket = True #output for person depends on ticket holding
+is_vip = False #input on this boolean only contributes to var 'vip_louge_entry'
+is_banned = False #this kind of explains itself
 
 #The logic rules
 can_enter_arcade = age >= 13 and has_ticket and not is_banned
